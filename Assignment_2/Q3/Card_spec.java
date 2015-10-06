@@ -84,8 +84,8 @@ public class Card {
    }
 
    public boolean repOK(){
-    if (theSuit != Card.SPADES || theSuit != Card.HEARTS || theSuit != Card.DIAMONDS || 
-            theSuit != Card.CLUBS || theSuit != Card.JOKER)
+    if (theSuit != Card.SPADES && theSuit != Card.HEARTS && theSuit != Card.DIAMONDS && 
+            theSuit != Card.CLUBS && theSuit != Card.JOKER)
       return false;
 
     if(theSuit != Card.JOKER && (theValue < 1 || theValue > 13)) 
