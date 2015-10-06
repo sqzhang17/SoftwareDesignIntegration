@@ -40,7 +40,7 @@ public class Deck {
     //Overview: This method shuffle the deck into a random order.
 
     //Requires: nil
-    //Modifiers: nil
+    //Modifiers: this.deck
     //Effects: shuffle the deck into a random order.
    }
    
@@ -54,7 +54,7 @@ public class Deck {
    public Card dealCard() {
     //Overview: This method return the next unused Card object in this Deck.
     //Requires: nil
-    //Modifiers: nil
+    //Modifiers: this.cardsUsed
     //Effects: return the first Card object unused left deck.
    }
    
